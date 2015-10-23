@@ -1,0 +1,37 @@
+/* Anchors */
+#publications a {outline: 0;}
+#publications a img {border: 0px; text-decoration: none;}
+/*#publications a:link, a:visited {
+  color: #6D6162;
+  padding: 0 1px;
+  text-decoration: none;
+}
+#publications a:hover, a:active {
+  background-color: #6D6162;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #333;
+}*/
+
+#publications a:link, a:visited {
+  color: #C74451;
+  padding: 0 1px;
+  text-decoration: none;
+}
+
+#publications a:hover, a:active {
+  border-radius: 3px 3px 3px 3px;
+  background-color: #C74451;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #333;
+}
+
+#publications {
+    padding: 20px 50px;
+}
+
+#publications p {
+    padding: 0px 40px;
+}
+
