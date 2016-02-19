@@ -13,13 +13,13 @@
   text-shadow: 1px 1px 1px #333;
 }*/
 
-#publications a:link, a:visited {
+#publications, #thesis a:link, a:visited {
   color: #C74451;
   padding: 0 1px;
   text-decoration: none;
 }
 
-#publications a:hover, a:active {
+#publications, #thesis a:hover, a:active {
   border-radius: 3px 3px 3px 3px;
   background-color: #C74451;
   color: #fff;
@@ -27,14 +27,10 @@
   text-shadow: 1px 1px 1px #333;
 }
 
-#publications {
+#publications, #thesis {
     padding: 20px 50px;
 }
 
-#publications p {
+#publications, #thesis p {
     padding: 0px 40px;
-}
-
-#thesis {
-  padding: 20px 50px;
 }
