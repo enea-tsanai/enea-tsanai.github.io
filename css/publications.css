@@ -14,14 +14,16 @@
 }*/
 
 #publications a:link, a:visited,
-#thesis a:link, a:visited {
+#thesis a:link, a:visited,
+#videos a:link, a:visited {
   color: #C74451;
   padding: 0 1px;
   text-decoration: none;
 }
 
 #publications a:hover, a:active,
-#thesis a:hover, a:active {
+#thesis a:hover, a:active,
+#videos a:hover, a:active {
   border-radius: 3px 3px 3px 3px;
   background-color: #C74451;
   color: #fff;
@@ -29,10 +31,10 @@
   text-shadow: 1px 1px 1px #333;
 }
 
-#publications, #thesis {
+#publications, #thesis, #videos {
     padding: 20px 50px;
 }
 
-#publications, #thesis p {
+#publications, #thesis, #videos p {
     padding: 0px 40px;
 }
